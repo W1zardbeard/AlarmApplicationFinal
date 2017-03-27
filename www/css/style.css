@@ -1,0 +1,85 @@
+* {
+  text-shadow: none;
+  font-family:sans-serif;
+    color:white;
+}
+
+#page1 {
+  background-color: #3498db; }
+
+#digitalClock {
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    color:white;
+    font-size:5em;
+    text-align: center;
+}
+
+.lineSeparate{
+    height:1px;
+    background-color:#3281b6;
+    margin:5%;
+}
+
+#analogClock{
+    
+    margin-top:1%;
+}
+
+.heading{
+    font-size:1.5em;
+}
+
+#nextAlarm{
+    text-align:center;
+}
+
+.button{
+ 
+}
+
+/* Button up */
+.ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a,
+/* Button visited */
+.ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited {
+	background-color: #3281b6 /*{a-bup-background-color}*/;
+	border-color: #3281b6 /*{a-bup-border}*/;
+	color: #ffffff /*{a-bup-color}*/;
+	
+}
+/* Button hover */
+.ui-page-theme-a .ui-btn:hover,
+html .ui-bar-a .ui-btn:hover,
+html .ui-body-a .ui-btn:hover,
+html body .ui-group-theme-a .ui-btn:hover,
+html head + body .ui-btn.ui-btn-a:hover {
+	background-color: #458fef /*{a-bhover-background-color}*/;
+	border-color: #458fef /*{a-bhover-border}*/;
+	color: #ffffff /*{a-bhover-color}*/;
+
+}
+/* Button down */k
+.ui-page-theme-a .ui-btn:active,
+html .ui-bar-a .ui-btn:active,
+html .ui-body-a .ui-btn:active,
+html body .ui-group-theme-a .ui-btn:active,
+html head + body .ui-btn.ui-btn-a:active {
+	background-color: #458fef /*{a-bdown-background-color}*/;
+	border-color: #254e83 /*{a-bdown-border}*/;
+	color: #ffffff /*{a-bdown-color}*/;
+	
+}
+
+#buttonContainerHome{
+    color:white;
+   
+}
