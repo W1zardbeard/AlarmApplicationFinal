@@ -17,5 +17,8 @@
         "prefix": "tinyhippos-"
       }
     }
+  },
+  "build-tab": {
+    "selectedTargets": []
   }
 }

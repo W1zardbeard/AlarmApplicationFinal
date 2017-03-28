@@ -4,8 +4,10 @@
     color:white;
 }
 
-#page1 {
-  background-color: #3498db; }
+#page1, #addAlarmPage {
+  background-color: #2196F3; 
+    height:100%;
+}
 
 #digitalClock {
     width: 100%;
@@ -18,13 +20,13 @@
 
 .lineSeparate{
     height:1px;
-    background-color:#3281b6;
+    background-color:#1976D2;
     margin:5%;
 }
 
 #analogClock{
     
-    margin-top:1%;
+    margin-top:2%;
 }
 
 .heading{
@@ -35,8 +37,36 @@
     text-align:center;
 }
 
-.button{
- 
+
+
+#buttonContainerHome{
+    color:white;
+    background-color: #2196F3 !important; 
+}
+
+
+
+
+
+
+/*======Edited via the jquery theme roller css creator used for the jquery framework=====*/
+
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #2196F3 /*{a-bar-background-color}*/;
+	border-color: #2196F3 /*{a-bar-border}*/;
+    width:100%;
+}
+
+.ui-overlay-a,
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+	background-color: #2196F3 /*{a-page-background-color}*/;
+	border-color: #2196F3 /*{a-page-border}*/;
 }
 
 /* Button up */
@@ -51,9 +81,10 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background-color: #3281b6 /*{a-bup-background-color}*/;
-	border-color: #3281b6 /*{a-bup-border}*/;
+	background-color: #64B5F6 /*{a-bup-background-color}*/;
+	border-color: #2196F3 /*{a-bup-border}*/;
 	color: #ffffff /*{a-bup-color}*/;
+    width:100%;
 	
 }
 /* Button hover */
@@ -62,7 +93,7 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background-color: #458fef /*{a-bhover-background-color}*/;
+	background-color: #F06292 /*{a-bhover-background-color}*/;
 	border-color: #458fef /*{a-bhover-border}*/;
 	color: #ffffff /*{a-bhover-color}*/;
 
@@ -79,7 +110,6 @@ html head + body .ui-btn.ui-btn-a:active {
 	
 }
 
-#buttonContainerHome{
-    color:white;
-   
+input{
+    font-size:100px;
 }

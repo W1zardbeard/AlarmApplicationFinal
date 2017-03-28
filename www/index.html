@@ -4,7 +4,7 @@
 
 	  <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="user-scalable=no, initial-scale=0.75, maximum-scale=1, minimum-scale=0.75, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=0.75, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
 	<title>ALARM APPLICATION BY YA BOI TOMMY MAIN</title>
     
     
@@ -23,6 +23,9 @@
 </head>
 
 <body>
+    
+<!--=============PAGE 1=============-->
+    
 <div id="page1" data-role="page">
     
     <div id="analogClock">
@@ -40,23 +43,68 @@
 
         </div>
     <div class="lineSeparate"></div>
-    
-    
-    <div id="buttonsContainerHome">
+
+
+    <div id="buttonsContainerHome" data-position="fixed" class="ui-bar" data-role="footer" >
    
-        <a href="#addAlarmPage" data-role="button" class="button column small-4">Add alarm</a> 
-  
-        <a href="#addAlarmPage" data-role="button"  class="button column small-4">All alarms</a> 
+        <div id="buttonCont" class="column small-4">
+            <a href="#addAlarmPage" data-role="button" class="button ">Add alarm</a> 
+        </div>
+
+        <div id="buttonCont" class="column small-4">    
+            <a href="#addAlarmPage" data-role="button"  class="button">All alarms</a> 
+        </div>  
+
+        <div id="buttonCont" class="column small-4">
+            <a href="#addAlarmPage" data-role="button" class="button">Settings</a> 
+        </div>  
+        
+    </div>
+</div>
+    
+    
+    
+<!--=============ADD ALARM PAGE=============-->    
+<div id="addAlarmPage" data-role="page">
   
     
-        <a href="#addAlarmPage" data-role="button" class="button column small-4">Settings</a> 
-  
+<div data-role="fieldcontain" >
+    <fieldset data-role="controlgroup"  id="timeSelector">
+    
+    
+        
+        <input type="time">
+    
+ </fieldset>
+</div>   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="buttonsContainerHome" data-position="fixed" class="ui-bar" data-role="footer" >
+   
+        <div id="buttonCont" class="column small-4">
+            <a href="#page1" data-role="button" class="button ">Home</a> 
+        </div>
+
+        <div id="buttonCont" class="column small-4">    
+            <a href="#addAlarmPage" data-role="button"  class="button">All alarms</a> 
+        </div>  
+
+        <div id="buttonCont" class="column small-4">
+            <a href="#addAlarmPage" data-role="button" class="button">Settings</a> 
+        </div>  
+        
     </div>
     
-    
-    
-    
 </div>
+    
+    
     <!--ractive template for alarm-->
     <script id='template' type='text/ractive'>
     {{name}}
